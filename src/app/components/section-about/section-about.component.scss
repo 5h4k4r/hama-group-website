@@ -1,0 +1,24 @@
+.dark-bg {
+  width: 100%;
+  height: 100vh;
+  color: black;
+  display: flex;
+  font-size: 50px;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 170px;
+  @media only screen and (max-width: 1200px) {
+    font-size: 32px;
+    padding: 0px 20px;
+  }
+  @media only screen and (max-width: 767px) {
+    font-size: 18px;
+  }
+}
+.bolden-text {
+  color: #fff;
+}
+span {
+  color: #777;
+  transition: all 0.5s ease-in-out;
+}

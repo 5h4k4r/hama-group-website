@@ -1,0 +1,104 @@
+p {
+  margin: 0px;
+}
+.hero-text {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  color: white;
+  .hama-brand-text {
+    font-weight: 600;
+    font-size: 205px;
+    line-height: 147px;
+    text-align: center;
+    @media only screen and (max-width: 768px) {
+      font-size: 84px;
+      text-align: center;
+      line-height: 70px;
+    }
+  }
+
+  .we-are-text {
+    font-weight: 300;
+    font-size: 96px;
+    line-height: 147px;
+    margin-right: 20%;
+    text-align: center;
+    @media only screen and (max-width: 768px) {
+      font-size: 42px;
+      text-align: center;
+      line-height: 70px;
+    }
+  }
+  .vector {
+    position: absolute;
+    right: 42%;
+    top: 50%;
+    width: 100%;
+    max-width: 600px;
+    // @media only screen and (max-width: 1700px) {
+    //   right: 15%;
+    // }
+    @media only screen and (max-width: 1200px) {
+      display: none;
+    }
+  }
+}
+.get-started-btn {
+  position: absolute;
+  width: 240px;
+  height: 72px;
+  right: 15%;
+  bottom: 100px;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 108px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  span {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #ffffff;
+  }
+}
+a {
+  background: transparent;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+}
+.button {
+  transition: all 0.2s ease-out;
+  &:hover {
+    background-color: white;
+    span {
+      font-weight: 600;
+
+      color: black;
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .get-started-btn {
+    position: absolute;
+    width: 120px;
+    height: 36px;
+    left: 50%;
+    bottom: 50px;
+    transform: translate(-50%, -50%);
+    span {
+      font-size: 14px;
+      color: #ffffff;
+      i-feather {
+        display: none;
+      }
+    }
+  }
+}

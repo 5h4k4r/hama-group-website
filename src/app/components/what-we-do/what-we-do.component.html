@@ -1,0 +1,33 @@
+<div class="dark-bg" #testDiv2>
+  <div class="row">
+    <div class="col-lg-4 col-sm-12">
+      <div class="left-side" #testDiv [class.stick-to-top]="isTestDivScrolledIntoView && isTestDiv2ScrolledIntoView">
+
+        <!-- [class.stick-to-top]="isTestDivScrolledIntoView" -->
+        <p class="what-do"> What do</p>
+
+        <p class="we-do yellow-text"> we do?</p>
+        <p class="description">
+          The idea of making a positive impact with every project is what drives us. The idea of making a positive
+          impact
+          with every project is what drives us.
+        </p>
+      </div>
+    </div>
+    <div class="col-lg-8 col-sm-12 px-5">
+      <div class="row">
+        <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12" *ngFor="let item of [].constructor(10); let i = index">
+          <div class="card" [class.mt-0]="i%2===0">
+            <div class="card-title">
+              <span class="text-uppercase">hama</span>
+              production
+            </div>
+            <div class="card-desc">
+              For those who want the best.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

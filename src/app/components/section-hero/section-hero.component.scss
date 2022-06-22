@@ -42,8 +42,9 @@ p {
     width: 100%;
     max-width: 600px;
     pointer-events: none;
-    @media only screen and (max-width: 1200px) {
-      display: none;
+    @media only screen and (max-width: 767px) {
+      // display: none;
+      right: 22%;
     }
   }
 }
@@ -87,18 +88,6 @@ a {
 
 @media only screen and (max-width: 767px) {
   .get-started-btn {
-    position: absolute;
-    width: 120px;
-    height: 36px;
-    left: 50%;
-    bottom: 50px;
-    transform: translate(-50%, -50%);
-    span {
-      font-size: 14px;
-      color: #ffffff;
-      i-feather {
-        display: none;
-      }
-    }
+    display: none;
   }
 }

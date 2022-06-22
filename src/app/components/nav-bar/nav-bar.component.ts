@@ -10,6 +10,11 @@ export class NavBarComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    const nav = document.getElementById('nav-container')!;
+
+    window.onscroll = () => {
+      console.log(nav.scrollTop)
+    }
   }
 
 }

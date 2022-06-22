@@ -14,6 +14,8 @@ import { SectionQuoteComponent } from './components/section-quote/section-quote.
 import { SectionAboutComponent } from './components/section-about/section-about.component';
 import { getFirestore, provideFirestore } from '@angular/fire/firestore';
 import { provideFirebaseApp, getApp, initializeApp } from '@angular/fire/app';
+import { SectionWhatDoWeDoComponent } from './components/section-what-do-we-do/section-what-do-we-do.component';
+import { SectionContactComponent } from './components/section-contact/section-contact.component';
 
 
 const firebaseConfig = {
@@ -36,6 +38,8 @@ const firebaseConfig = {
     TestComponent,
     SectionQuoteComponent,
     SectionAboutComponent,
+    SectionWhatDoWeDoComponent,
+    SectionContactComponent,
 
 
   ],

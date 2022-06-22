@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "public",
+    "public": "dist/hama-group-website",
     "ignore": [
       "firebase.json",
       "**/.*",

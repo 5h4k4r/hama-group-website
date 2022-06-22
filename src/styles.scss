@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300;1,400&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+.dark-bg {
+  background-color: #0f0f0f;
+  color: #fff;
+}
+
+* {
+  font-family: 'Oswald', sans-serif;
+}
+.yellow-text {
+  color: #ffa83f;
+}

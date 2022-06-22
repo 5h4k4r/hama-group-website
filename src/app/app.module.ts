@@ -12,6 +12,18 @@ import { WhatWeDoComponent } from './components/what-we-do/what-we-do.component'
 import { TestComponent } from './components/test/test.component';
 import { SectionQuoteComponent } from './components/section-quote/section-quote.component';
 import { SectionAboutComponent } from './components/section-about/section-about.component';
+import { getFirestore, provideFirestore } from '@angular/fire/firestore';
+import { provideFirebaseApp, getApp, initializeApp } from '@angular/fire/app';
+
+
+const firebaseConfig = {
+  apiKey: "AIzaSyB46O44zcLIKbU8nKFoJ7r_a-Y6MkR8eQI",
+  authDomain: "hama-group-website.firebaseapp.com",
+  projectId: "hama-group-website",
+  storageBucket: "hama-group-website.appspot.com",
+  messagingSenderId: "496167338931",
+  appId: "1:496167338931:web:78b2699dcc3c564ed5c1c6"
+};
 
 @NgModule({
   declarations: [
@@ -23,12 +35,15 @@ import { SectionAboutComponent } from './components/section-about/section-about.
     WhatWeDoComponent,
     TestComponent,
     SectionQuoteComponent,
-    SectionAboutComponent
+    SectionAboutComponent,
+
+
   ],
   imports: [
     BrowserModule,
     IconsModule,
     AppRoutingModule,
+    provideFirebaseApp(() => initializeApp(firebaseConfig)),
   ],
   providers: [],
   bootstrap: [AppComponent]

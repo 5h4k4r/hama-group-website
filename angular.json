@@ -28,9 +28,17 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/bootstrap/dist/css/bootstrap.css",
+              "node_modules/animate.css/animate.css",
+              "node_modules/aos/dist/aos.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.js",
+              "node_modules/jquery/dist/jquery.min.js",
+              "./src/assets/js/magneticButton.js",
+              "./src/assets/js/scrollMagic.js"
+            ]
           },
           "configurations": {
             "production": {

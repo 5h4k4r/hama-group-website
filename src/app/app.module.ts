@@ -12,10 +12,11 @@ import { WhatWeDoComponent } from './components/what-we-do/what-we-do.component'
 import { TestComponent } from './components/test/test.component';
 import { SectionQuoteComponent } from './components/section-quote/section-quote.component';
 import { SectionAboutComponent } from './components/section-about/section-about.component';
-import { getFirestore, provideFirestore } from '@angular/fire/firestore';
-import { provideFirebaseApp, getApp, initializeApp } from '@angular/fire/app';
+import { provideFirebaseApp, initializeApp } from '@angular/fire/app';
 import { SectionWhatDoWeDoComponent } from './components/section-what-do-we-do/section-what-do-we-do.component';
 import { SectionContactComponent } from './components/section-contact/section-contact.component';
+import { HorizontalScrollCardsComponent } from './components/horizontal-scroll-cards/horizontal-scroll-cards.component';
+import { MobileScrollCardsComponent } from './components/mobile-scroll-cards/mobile-scroll-cards.component';
 
 
 const firebaseConfig = {
@@ -40,6 +41,8 @@ const firebaseConfig = {
     SectionAboutComponent,
     SectionWhatDoWeDoComponent,
     SectionContactComponent,
+    HorizontalScrollCardsComponent,
+    MobileScrollCardsComponent,
 
 
   ],

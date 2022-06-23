@@ -40,11 +40,19 @@ p {
     right: 42%;
     top: 50%;
     width: 100%;
+    transform: rotate(10deg);
     max-width: 500px;
     pointer-events: none;
     @media only screen and (max-width: 767px) {
       // display: none;
       right: 22%;
+      max-width: 250px;
+      transform: rotate(0);
+    }
+    @media only screen and (max-width: 1200px) and (min-width: 767px) {
+      // display: none;
+      right: 52%;
+      max-width: 300px;
     }
   }
 }

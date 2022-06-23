@@ -1,0 +1,90 @@
+* {
+  font-family: 'Montserrat';
+}
+
+.card-custom {
+  overflow: hidden;
+  margin: 50px 50px;
+  height: 400px;
+  width: 400px;
+  padding: 56px 56px;
+  background: #0f0f0f;
+  border: 1px solid rgba(163, 163, 163, 0.3);
+  max-width: 600px;
+  margin-bottom: 2rem;
+
+  transform: rotate(90deg);
+  @media only screen and(max-width: 1200px) {
+    min-width: 300px;
+    height: 500px;
+  }
+  .card-title {
+    font-weight: 400;
+    font-size: 48px;
+    color: #ffffff;
+    @media only screen and (max-width: 1700px) and (min-width: 1200px) {
+      font-size: 34px;
+    }
+  }
+  .card-desc {
+    font-weight: 300;
+    font-size: 24px;
+    color: #ffffff;
+    width: 100%;
+  }
+}
+@media only screen and(max-width: 767px) {
+  .card-custom {
+    .card-title {
+      font-size: 24px;
+    }
+    .card-desc {
+      font-size: 18px;
+    }
+  }
+}
+
+$finalHeight: 600px;
+$finalWidth: 3 * $finalHeight;
+$scrollBarHeight: 1px;
+
+::-webkit-scrollbar {
+  width: $scrollBarHeight;
+  height: $scrollBarHeight;
+}
+
+::-webkit-scrollbar-button {
+  width: $scrollBarHeight;
+  height: $scrollBarHeight;
+}
+div {
+  box-sizing: border-box;
+}
+
+.horizontal-scroll-wrapper {
+  position: absolute;
+  display: block;
+  left: 0;
+  width: calc(#{$finalHeight} + #{$scrollBarHeight});
+  max-height: 99vw;
+  margin: 0;
+  padding-top: $scrollBarHeight;
+  overflow-y: auto;
+  overflow-x: hidden;
+  transform: rotate(-90deg) translateY(-$finalHeight);
+  transform-origin: right top;
+  & > div {
+    display: block;
+    transform: rotate(90deg);
+    transform-origin: right top;
+  }
+}
+
+.squares {
+  padding: $finalHeight 0 0 0;
+  & > div {
+    width: $finalHeight - 20px;
+    height: $finalHeight - 20px;
+    margin: 10px 10px;
+  }
+}

@@ -6,7 +6,8 @@ export const companiesCards: Array<{ title: string; desc: string; imgUrl?: strin
   },
   {
     title: 'HAMA Film',
-    desc: 'For those with stories to tell'
+    desc: 'For those with stories to tell',
+    imgUrl: 'assets/png/film.png'
   },
   {
     title: 'Creativye',

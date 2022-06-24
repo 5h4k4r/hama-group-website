@@ -43,6 +43,10 @@ p {
     transform: rotate(10deg);
     max-width: 500px;
     pointer-events: none;
+    @media only screen and (max-width: 1366px) {
+      right: 45%;
+      max-width: 400px;
+    }
     @media only screen and (max-width: 767px) {
       // display: none;
       right: 22%;
@@ -97,5 +101,17 @@ a {
 @media only screen and (max-width: 767px) {
   .get-started-btn {
     display: none;
+  }
+}
+@media only screen and (max-width: 1366px) {
+  .get-started-btn {
+    width: 180px;
+    height: 52px;
+    right: 10%;
+
+    span {
+      font-size: 18px;
+      line-height: 18px;
+    }
   }
 }

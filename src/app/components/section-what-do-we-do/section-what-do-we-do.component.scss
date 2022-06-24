@@ -1,7 +1,7 @@
 .branches-container {
   height: 100vh;
   .title-container {
-    padding: 180px 180px;
+    padding: 70px 180px;
   }
 }
 
@@ -16,13 +16,7 @@
   line-height: 78px;
 }
 
-@media only screen and(max-width: 767px) {
-  .branches-container {
-    height: 100vh;
-    .title-container {
-      padding: 180px 20px;
-    }
-  }
+@media only screen and(max-width: 1200px) {
   .what-do,
   .we-do {
     font-size: 32px;

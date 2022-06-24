@@ -102,3 +102,20 @@ img {
     width: 14px;
   }
 }
+
+@media only screen and (max-width: 1366px) {
+  .hide-on-lg-and-down {
+    display: none;
+  }
+  .show-on-lg-and-down {
+    display: block;
+  }
+}
+@media only screen and (min-width: 1366px) {
+  .hide-on-lg-and-down {
+    display: block;
+  }
+  .show-on-lg-and-down {
+    display: none;
+  }
+}

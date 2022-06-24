@@ -48,7 +48,17 @@ img {
   margin-top: 100px;
   width: 60%;
 }
-@media only screen and (max-width: 1366px) {
+@media only screen and (max-width: 1500px) {
+  .title {
+    font-size: 42px;
+    line-height: 42px;
+  }
+  .quote {
+    width: 100%;
+    font-size: 24px;
+  }
+}
+@media only screen and (max-width: 1200px) {
   .title {
     font-size: 72px;
     line-height: 72px;
@@ -61,7 +71,7 @@ img {
     padding: 0px 20px;
   }
 }
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 768px) {
   .title {
     font-size: 72px;
     line-height: 72px;

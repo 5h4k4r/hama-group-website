@@ -1,7 +1,8 @@
-export const companiesCards: Array<{ title: string; desc: string; }> = [
+export const companiesCards: Array<{ title: string; desc: string; imgUrl?: string; }> = [
   {
     title: 'HAMA Production',
-    desc: 'For those who want the best'
+    desc: 'For those who want the best',
+    imgUrl: 'assets/png/hama_production.png'
   },
   {
     title: 'HAMA Film',
@@ -9,7 +10,8 @@ export const companiesCards: Array<{ title: string; desc: string; }> = [
   },
   {
     title: 'Creativye',
-    desc: 'Telling brand stories for impact'
+    desc: 'Telling brand stories for impact',
+    imgUrl: 'assets/png/creativye.png'
   },
   {
     title: 'MyGeeney',
@@ -17,7 +19,8 @@ export const companiesCards: Array<{ title: string; desc: string; }> = [
   },
   {
     title: 'HAKIM',
-    desc: 'The first mobile car service in the region'
+    desc: 'The first mobile car service in the region',
+    imgUrl: 'assets/png/hakim.png'
   },
   {
     title: 'Lams Digital',
@@ -29,7 +32,8 @@ export const companiesCards: Array<{ title: string; desc: string; }> = [
   },
   {
     title: 'Savora Construction',
-    desc: 'Building more than meets the eye'
+    desc: 'Building more than meets the eye',
+    imgUrl: 'assets/png/savo.png'
   },
   {
     title: 'HAMA ISP',

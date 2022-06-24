@@ -15,7 +15,8 @@ export const companiesCards: Array<{ title: string; desc: string; imgUrl?: strin
   },
   {
     title: 'MyGeeney',
-    desc: 'Truly customer-centric e-commerce'
+    desc: 'Truly customer-centric e-commerce',
+    imgUrl: 'assets/png/ecommerce.png'
   },
   {
     title: 'HAKIM',
@@ -24,11 +25,13 @@ export const companiesCards: Array<{ title: string; desc: string; imgUrl?: strin
   },
   {
     title: 'Lams Digital',
-    desc: 'Bayad'
+    desc: 'Bayad',
+    imgUrl: 'assets/png/digital_marketing.png'
   },
   {
     title: 'Black Marlin',
-    desc: 'World class distribution you can trust'
+    desc: 'World class distribution you can trust',
+    imgUrl: 'assets/png/shipping.png'
   },
   {
     title: 'Savora Construction',
@@ -37,6 +40,7 @@ export const companiesCards: Array<{ title: string; desc: string; imgUrl?: strin
   },
   {
     title: 'HAMA ISP',
-    desc: 'For stronger connections'
+    desc: 'For stronger connections',
+    imgUrl: 'assets/png/isp.png'
   }
 ];

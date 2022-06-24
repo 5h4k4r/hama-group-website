@@ -1,7 +1,8 @@
 .dark-bg {
   height: 100vh;
-  padding: 170px 170px;
+  padding: 0;
   position: relative;
+  overflow: hidden;
 }
 .title {
   font-size: 54px;
@@ -15,15 +16,21 @@
 .link {
   font-weight: 600;
   cursor: pointer;
-  margin-right: 25px;
+  width: 32px;
+  height: 32px;
   transition: all 0.2s ease-in-out;
   &:hover {
     color: #ffa83f;
+  }
+  &:not(:last-child) {
+    margin-right: 25px;
   }
 }
 
 img {
   width: 100%;
+  height: 100vh;
+  object-fit: cover;
 }
 
 .map-overlay {
@@ -36,7 +43,8 @@ img {
   .map-overlay-container {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
+    padding: 20px;
     height: 100%;
     width: 100%;
   }
@@ -44,38 +52,39 @@ img {
     backdrop-filter: blur(10px);
     background-color: rgba(0, 0, 0, 0.3);
     font-size: 32px;
-    padding: 75px 45px;
-    height: 250px;
-    width: 550px;
+    padding: 50px 45px;
+    height: 200px;
+    width: 100%;
     margin-top: 20px;
+    transition: all 0.2s ease-in-out;
+    &:hover:not(.links) {
+      background-color: rgba(255, 255, 255, 0.1);
+      cursor: pointer;
+    }
   }
 }
 .overlay-icons {
   height: 33px;
   width: 33px;
 }
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1500px) {
   .map-overlay {
-    position: relative;
-  }
-  img {
-    display: none;
+    padding: 170px 20px;
   }
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1200px) {
+  .link {
+    height: 18px;
+    width: 18px;
+  }
   .follow-us {
-    margin-top: 20px;
+    font-size: 20px;
   }
   .title {
     font-size: 24px;
   }
-  .dark-bg {
-    padding: 170px 20px;
-  }
   .map-overlay {
-    position: relative;
     .map-overlay-container {
-      display: block;
       span {
         margin-top: 20px;
       }

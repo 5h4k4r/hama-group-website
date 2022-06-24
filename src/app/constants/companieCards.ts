@@ -20,7 +20,7 @@ export const companiesCards: Array<{ title: string; desc: string; }> = [
     desc: 'The first mobile car service in the region'
   },
   {
-    title: 'HAMA Digital',
+    title: 'Lams Digital',
     desc: 'Bayad'
   },
   {

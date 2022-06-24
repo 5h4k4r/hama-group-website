@@ -17,6 +17,7 @@ import { SectionWhatDoWeDoComponent } from './components/section-what-do-we-do/s
 import { SectionContactComponent } from './components/section-contact/section-contact.component';
 import { HorizontalScrollCardsComponent } from './components/horizontal-scroll-cards/horizontal-scroll-cards.component';
 import { MobileScrollCardsComponent } from './components/mobile-scroll-cards/mobile-scroll-cards.component';
+import { SectionCopyrightComponent } from './components/section-copyright/section-copyright.component';
 
 
 const firebaseConfig = {
@@ -43,6 +44,7 @@ const firebaseConfig = {
     SectionContactComponent,
     HorizontalScrollCardsComponent,
     MobileScrollCardsComponent,
+    SectionCopyrightComponent,
 
 
   ],

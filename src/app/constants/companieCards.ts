@@ -1,22 +1,22 @@
 export const companiesCards: Array<{ title: string; desc: string; imgUrl?: string; }> = [
   {
     title: 'HAMA Production',
-    desc: 'For those who want the best',
+    desc: 'Iraq\'s Top Full Service Advertising Agency',
     imgUrl: 'assets/png/hama_production.png'
   },
   {
     title: 'HAMA Film',
-    desc: 'For those with stories to tell',
+    desc: 'Film Production, Equipment Rental & Servicing',
     imgUrl: 'assets/png/film.png'
   },
   {
     title: 'Creativye',
-    desc: 'Telling brand stories for impact',
+    desc: 'PR & Communications Solutions',
     imgUrl: 'assets/png/creativye.png'
   },
   {
     title: 'MyGeeney',
-    desc: 'Truly customer-centric e-commerce',
+    desc: 'e-commerce Service Provider',
     imgUrl: 'assets/png/ecommerce.png'
   },
   {
@@ -25,23 +25,23 @@ export const companiesCards: Array<{ title: string; desc: string; imgUrl?: strin
     imgUrl: 'assets/png/hakim.png'
   },
   {
-    title: 'Lams Digital',
-    desc: 'Bayad',
-    imgUrl: 'assets/png/digital_marketing.png'
+    title: 'HAMA Digital',
+    desc: 'Digital & Technology Solutions',
+    imgUrl: 'assets/png/digital.png'
   },
   {
     title: 'Black Marlin',
-    desc: 'World class distribution you can trust',
+    desc: 'Distribution & Logistics Company',
     imgUrl: 'assets/png/shipping.png'
   },
   {
     title: 'Savora Construction',
-    desc: 'Building more than meets the eye',
+    desc: 'Construction Company',
     imgUrl: 'assets/png/savo.png'
   },
   {
     title: 'HAMA ISP',
-    desc: 'For stronger connections',
+    desc: 'Internet Service Provider',
     imgUrl: 'assets/png/isp.png'
   }
 ];

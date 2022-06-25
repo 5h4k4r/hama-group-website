@@ -1,7 +1,7 @@
 <div class="horizontal-scroll-wrapper squares">
   <div class="card-custom" *ngFor="let item of cards">
     <div class="card-title">
-      <img style="height:100px;width:100px;border-radius:50%;margin-bottom:20px;object-fit: contain;"
+      <img style="height:100px;width:100px;margin-bottom:20px;object-fit: contain;"
         [src]="item?.imgUrl || 'assets/png/map.png'">
       <p>{{item.title}}</p>
     </div>

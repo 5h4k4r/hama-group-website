@@ -16,13 +16,7 @@ export class SectionContactComponent implements OnInit {
     window.open('tel:+9647703614849');
   }
 
-  openMessenger(): void {
-    // https://m.me/119173678135946
-    window.location.href = 'https://m.me/119173678135946';
-  }
-
-  openEmail(): void {
-    window.location.href = "mailto:info@hamafx.com";
-
+  openLink(link: string): void {
+    window.location.href = link;
   }
 }
